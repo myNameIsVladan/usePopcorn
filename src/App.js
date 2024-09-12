@@ -4,6 +4,7 @@ import StarRating from "./StarRating";
 import { useMovies } from "./useMovies";
 import { useLocalStorageState } from "./useLocalStorageState";
 import { useKey } from "./useKey";
+/*
 const tempMovieData = [
   {
     imdbID: "tt1375666",
@@ -49,7 +50,7 @@ const tempWatchedData = [
     imdbRating: 8.5,
     userRating: 9,
   },
-];
+];*/
 
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
